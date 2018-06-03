@@ -5,7 +5,7 @@ print(check_output(["ls", "../data-analysis/jd"]).decode("utf8"))
 # All csv files are within jd folder 
 
 info = pd.read_csv("../data-analysis/jd/sku_info.csv")
-# print(info) 1000 rows x 5 columns id:0-999
+# print(info) 1000 rows x 5 columns id:1-1000
 attr = pd.read_csv("../data-analysis/jd/sku_attr.csv")
 # print(attr)  6776 rows x 3 columns
 sales = pd.read_csv("../data-analysis/jd/sku_sales.csv")
